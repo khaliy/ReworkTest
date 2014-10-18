@@ -1,0 +1,26 @@
+{
+  "name": "rework-test",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer-core": "^3.1.2",
+    "css-flip": "^0.5.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-postcss": "^0.1.0",
+    "grunt-rework": "^0.1.0",
+    "rework": "^1.0.1",
+    "rework-breakpoints": "^0.6.0",
+    "rework-calc": "^1.1.0",
+    "rework-inherit": "^0.2.3",
+    "rework-mixins": "^1.2.0",
+    "rework-plugin-colors": "^1.0.3",
+    "rework-plugin-ease": "^1.0.1",
+    "rework-plugin-mixin": "^1.0.0",
+    "rework-plugin-prefix-selectors": "^1.0.1",
+    "rework-plugin-references": "^1.0.1",
+    "rework-plugin-url": "^1.0.1",
+    "rework-vars": "^3.1.1"
+  }
+}

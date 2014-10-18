@@ -1,0 +1,47 @@
+@import "/css-lib/clearfix.css";
+
+:root {
+    --my-color: red;
+    --font-size: 20px;
+
+    breakpoints-device: yes;
+    breakpoint-palm: max 340px;
+    breakpoint-tab: max 700px;
+    breakpoint-desk: min 1000px;
+    breakpoint-desk-wide: min 1200px;
+}
+
+body {
+    color: var(--my-color);
+    font-size: var(--font-size);
+    line-height: calc(@font-size + 2);
+}
+
+.module {
+    border: 1px solid black;
+    border-radius: top 5px bottom 10px;
+    float: left;
+    padding: 5px 10px 15px 20px;
+    animation: fade 2s ease-in-out-back;
+    inherit: %clearfix;
+}
+
+h1 {
+    hidden: offscreen;
+}
+
+@keyframes fade {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@media palm {
+    .module {
+        background-color: gray;
+    }
+}
+@media tab-and-up {
+    .module {
+        background-color: white;
+    }
+}

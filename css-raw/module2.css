@@ -1,0 +1,6 @@
+.module2 {
+    border: 1px solid rgba(#ccc, .5);
+    background-image: url('/error_404.png');
+    float: left;
+    width: 200px;
+}
